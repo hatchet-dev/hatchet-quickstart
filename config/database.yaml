@@ -1,0 +1,4 @@
+kind: sqlite
+autoMigrate: true
+sqlite:
+  path: ./data/hatchet.db

@@ -1,0 +1,13 @@
+serverURL: http://localhost:8080
+auth:
+  cookie:
+    domain: http://localhost:8080
+    insecure: true
+fileStore:
+  kind: local
+  local: 
+    directory: ./tmp/files
+logStore:
+  kind: file
+  file: 
+    directory: ./tmp/logs

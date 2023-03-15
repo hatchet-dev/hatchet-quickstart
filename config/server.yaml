@@ -1,0 +1,20 @@
+runtime:
+  port: 8080
+  url: http://localhost:8080
+  runBackgroundWorker: true
+  runRunnerWorker: false
+  runTemporalServer: true
+  runStaticFileServer: true
+  staticFilePath: ./dashboard/build
+auth:
+  cookie:
+    domain: localhost:8080
+    insecure: true
+fileStore:
+  kind: local
+  local: 
+    directory: ./tmp/files
+logStore:
+  kind: file
+  file: 
+    directory: ./tmp/logs
