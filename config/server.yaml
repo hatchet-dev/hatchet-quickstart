@@ -5,7 +5,6 @@ runtime:
   runRunnerWorker: false
   runTemporalServer: true
   runStaticFileServer: true
-  staticFilePath: ./dashboard/build
 auth:
   cookie:
     domain: localhost:8080
